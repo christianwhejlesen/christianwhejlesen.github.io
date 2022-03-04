@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/wiehldkh/public_html/hejlesen.info
+    - /bin/cp -R * $DEPLOYPATH
